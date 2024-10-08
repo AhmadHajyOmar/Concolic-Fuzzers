@@ -1,0 +1,10 @@
+Task1/RandomConcolicTracer.py           PASS
+Task1/RandomGeneration.py               PASS
+Task1/Benchmark.py                      PASS
+Task1/benchmark_results.txt             PASS
+Task2/Summaries.py                      PASS
+Task2/TestSummaries.py                  PASS
+Task2/EMail.py                          PASS
+Task2/RunInputs.py                      PASS
+Task2/ConcolicEMailExploration.py       PASS
+

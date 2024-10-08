@@ -1,0 +1,28 @@
+/usr/bin/python3 /home/ahm2d/Desktop/STP2/Task1/Benchmark.py
+[*] Running benchmark for function triangle
+[zeval] result:  ('sat', {'a': ('1', 'Int'), 'b': ('0', 'Int'), 'c': ('1', 'Int')})
+[zeval] time:  0.11868882179260254
+..............................attempts..............................
+10000
+[reval] result:  ('sat', {'triangle_a_int_1': (780, 'Int'), 'triangle_b_int_2': (212, 'Int'), 'triangle_c_int_3': (780, 'Int')})
+[reval] time:  0.7996194362640381
+Benchmark 1 passed
+
+[*] Running benchmark for function string_cmp_test
+[zeval] result:  ('sat', {'x': ('hi', 'String')})
+[zeval] time:  0.020742177963256836
+..............................attempts..............................
+10000
+[reval] result:  ('sat', {'string_cmp_test_x_str_1': ('hi', 'String')})
+[reval] time:  0.44837093353271484
+Benchmark 2 passed
+
+[*] Running benchmark for function arithmetic_test
+[zeval] result:  ('sat', {'a': ('500', 'Int'), 'b': ('0', 'Int')})
+[zeval] time:  0.020020723342895508
+..............................attempts..............................
+10000
+[reval] result:  ('sat', {'arithmetic_test_a_int_1': (78, 'Int'), 'arithmetic_test_b_int_2': (211, 'Int')})
+[reval] time:  1.9875693321228027
+Benchmark 3 passed
+
